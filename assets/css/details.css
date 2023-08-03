@@ -1,0 +1,102 @@
+* {
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+}
+
+.top-pokemon {
+  position: relative;
+  color: #FFF;
+  height: 35vh;
+}
+
+.pokemon .name {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.types {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.type {
+  border-radius: 1rem;
+  text-align: center;
+  padding: .25rem .75rem;
+  background-color: #77c850;
+  margin: .25rem 0;
+  filter: brightness(1.1);
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  margin: .5rem;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.pokemon .number {
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail img {
+  margin-top: 1rem;
+  max-width: 100%;
+  height: 150px;
+  align-self: center;
+  position: relative;
+}
+
+.details {
+  height: 65vh;
+  background-color: #fff;
+  border-radius: 2rem 2rem 0 0;
+  color: #000;
+}
+
+.details li {
+  color: gray;
+}
+
+.details .tabs {
+  padding: 4rem 2rem 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs li {
+  padding-bottom: 1rem;
+}
+
+.details .selected {
+  color: #000;
+  border-bottom: 2px solid blue;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  gap: .625rem;
+}
+
+.description .strong {
+  padding: 1rem 0;
+  color: black;
+}
+
